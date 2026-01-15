@@ -1,0 +1,24 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "keybinds": {
+        "leader": "ctrl+x",
+        "model_cycle_favorite": "<leader>f"
+    },
+    "model": "zai-coding-plan/glm-4.7",
+    "mcp": {
+        "web-reader": {
+            "type": "remote",
+            "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+            "headers": {
+                "Authorization": "Bearer YOUR_API_KEY_HERE"
+            }
+        },
+        "web-search-prime": {
+            "type": "remote",
+            "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+            "headers": {
+                "Authorization": "YOUR_API_KEY_HERE"
+            }
+        }
+    }
+}

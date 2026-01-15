@@ -1,0 +1,35 @@
+# OpenCode Config
+
+# Opencode logs
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# Lock files (optional - uncomment if you don't want to track them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
